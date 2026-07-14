@@ -1,5 +1,5 @@
 export const API_KEY='YOUR_YOUTUBE_API_KEY';
-export const CHANNEL_ID='YOUR_CHANNEL_ID';
+export const CHANNEL_ID='@LakeviewCovenantChurch';
 
 export async function loadRecentLives(){
  const url=`https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=${CHANNEL_ID}&eventType=completed&type=video&order=date&maxResults=10&key=${API_KEY}`;
